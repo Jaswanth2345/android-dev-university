@@ -1,0 +1,13 @@
+<resources>
+    <!-- English Strings -->
+    <string name="app_name">Ca-2</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="gender_hint">Enter Gender</string>
+    <string name="age_hint">Enter Age</string>
+
+    <!-- Hindi Strings -->
+    <string name="app_name_hi">मेरा ऐप</string>
+    <string name="name_hint_hi">नाम दर्ज करें</string>
+    <string name="gender_hint_hi">लिंग दर्ज करें</string>
+    <string name="age_hint_hi">उम्र दर्ज करें</string>
+</resources>

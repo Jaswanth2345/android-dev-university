@@ -1,0 +1,11 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_english"
+        android:title="English"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_second_language"
+        android:title="Hindi"
+         />
+</menu>

@@ -1,0 +1,83 @@
+ <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HobbiesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textViewHobby1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby 1: Cycling"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewHobby1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Hobby Image 1"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewHobby2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby 2: Watching Movies"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewHobby2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Hobby Image 2"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewHobby3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby 3: Reading Books"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewHobby3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Hobby Image 3"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewHobby4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby 4: Practicing Martial Arts"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewHobby4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Hobby Image 4"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+</ScrollView>
